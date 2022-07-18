@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using Spotify.Persistence;
 
-namespace Spotify.Persistence.Migrations
+namespace Spotify.Application.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     partial class AppDbContextModelSnapshot : ModelSnapshot
@@ -168,8 +168,8 @@ namespace Spotify.Persistence.Migrations
                     b.Property<string>("Email")
                         .HasColumnType("text");
 
-                    b.Property<int>("Password")
-                        .HasColumnType("integer");
+                    b.Property<string>("Password")
+                        .HasColumnType("text");
 
                     b.Property<int?>("RoleId")
                         .HasColumnType("integer");

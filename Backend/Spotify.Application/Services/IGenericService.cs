@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 
 
-namespace Spotify.Persistence.Services
+namespace Spotify.Application.Services
 {
     public interface IGenericService<T>
         where T : Generic

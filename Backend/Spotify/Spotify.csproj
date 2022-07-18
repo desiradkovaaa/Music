@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Spotify.Application\Spotify.Application.csproj" />
     <ProjectReference Include="..\Spotify.Persistence\Spotify.Persistence.csproj" />
   </ItemGroup>
 

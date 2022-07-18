@@ -1,11 +1,12 @@
 ﻿
-using Microsoft.EntityFrameworkCore;
-using Spotify.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Spotify.Data.Models;
+using Spotify.Persistence;
 
-namespace Spotify.Persistence.Services
+namespace Spotify.Application.Services
 {
     public class GenericService<T> : IGenericService<T>
         where T : Generic

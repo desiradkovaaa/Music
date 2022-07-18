@@ -5,8 +5,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Spotify.Persistence;
 
-namespace Spotify.Persistence.Services
+namespace Spotify.Application.Services
 {
     public class UserService
     {

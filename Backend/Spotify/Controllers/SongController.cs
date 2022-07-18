@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Spotify.Application.Services;
 using Spotify.Data.Models;
 using Spotify.Models;
-using Spotify.Persistence.Services;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

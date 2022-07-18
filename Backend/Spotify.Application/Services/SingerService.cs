@@ -1,12 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Spotify.Data.Models;
+using Spotify.Persistence;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Spotify.Persistence.Services
+namespace Spotify.Application.Services
 {
     public class SingerService
     {

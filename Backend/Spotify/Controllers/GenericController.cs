@@ -2,7 +2,7 @@
 using Spotify.Data.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Spotify.Persistence.Services;
+using Spotify.Application.Services;
 
 namespace Spotify.Controllers
 {

@@ -10,8 +10,8 @@ using Spotify.Persistence;
 namespace Spotify.Persistence.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20220608123542_init")]
-    partial class init
+    [Migration("20220718105621_UserPassword")]
+    partial class UserPassword
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -170,8 +170,8 @@ namespace Spotify.Persistence.Migrations
                     b.Property<string>("Email")
                         .HasColumnType("text");
 
-                    b.Property<int>("Password")
-                        .HasColumnType("integer");
+                    b.Property<string>("Password")
+                        .HasColumnType("text");
 
                     b.Property<int?>("RoleId")
                         .HasColumnType("integer");
